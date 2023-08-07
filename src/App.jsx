@@ -5,9 +5,7 @@ import './style/responsive.css';
 // import CardList from './components/CardList';
 import Header from './components/layout/Header';
 import MainBtn from './components/MainBtn';
-// export import Card2
-
-const colorTitiles = ['red', 'green', 'blue'];
+import TitlesMap from './components/TitlesMap';
 
 function App() {
   // const now = new Date();
@@ -15,10 +13,7 @@ function App() {
   return (
     <div className='App container'>
       <Header />
-      {colorTitiles.map((color) => (
-        <h2 key={color}>{color}</h2>
-      ))}
-
+      <TitlesMap />
       <MainBtn outline>Light mode</MainBtn>
       {/* <CardList /> */}
     </div>
