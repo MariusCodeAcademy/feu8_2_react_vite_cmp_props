@@ -2,28 +2,9 @@
 import './style/common.css';
 import './style/App.css';
 import './style/responsive.css';
-import MainBtn from './components/MainBtn';
 import Card1 from './components/Card1';
-import Card2 from './components/Card2';
 import Header from './components/layout/Header';
 // export import Card2
-
-function Card3() {
-  const cityName = 'San Francisco !!!';
-  return (
-    <article className='singleCard'>
-      <img src='/img/sanfran.jpg' alt='new york' className='cardImg' />
-      <div className='cardInfo'>
-        <h3 className='cardTitle'>{cityName}</h3>
-        <p className='cardDate'>Fri 17 Nov 2017</p>
-        <p className='text'>
-          Praesent tincidunt sed tellus ut rutrum sed vitae justo.
-        </p>
-        <MainBtn />
-      </div>
-    </article>
-  );
-}
 
 function App() {
   // const now = new Date();
@@ -32,9 +13,17 @@ function App() {
     <div className='App container'>
       <Header />
       <div className='cardsList grid3'>
-        <Card1 city='New York !' heroImage='/img/newyork.jpg' />
-        <Card1 city='Paris !' heroImage='/img/paris.jpg' />
-        <Card1 city='San Francisco !' heroImage='/img/sanfran.jpg' />
+        <Card1
+          city='New York !'
+          heroImage='/img/newyork.jpg'
+          date='2023-07-08'
+        />
+        <Card1 city='Paris !' heroImage='/img/paris.jpg' date='2024-07-08' />
+        <Card1
+          city='San Francisco !'
+          heroImage='/img/sanfran.jpg'
+          date='2019-07-08'
+        />
       </div>
     </div>
   );
