@@ -54,3 +54,12 @@ body {
 .btn:hover {
   background-color: #626262;
 }
+.btnOutline {
+  background-color: white;
+  border: 1px solid black;
+  color: #333;
+}
+.btnOutline:hover {
+  background-color: #333;
+  color: white;
+}

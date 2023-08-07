@@ -4,6 +4,7 @@ import './style/App.css';
 import './style/responsive.css';
 import Card1 from './components/Card1';
 import Header from './components/layout/Header';
+import MainBtn from './components/MainBtn';
 // export import Card2
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className='App container'>
       <Header />
+      <MainBtn outline>Light mode</MainBtn>
       <div className='cardsList grid3'>
         <Card1
           city='New York !'
