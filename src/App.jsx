@@ -32,9 +32,9 @@ function App() {
     <div className='App container'>
       <Header />
       <div className='cardsList grid3'>
-        <Card1 />
-        <Card2 />
-        <Card3 />
+        <Card1 city='New York !' heroImage='/img/newyork.jpg' />
+        <Card1 city='Paris !' heroImage='/img/paris.jpg' />
+        <Card1 city='San Francisco !' heroImage='/img/sanfran.jpg' />
       </div>
     </div>
   );
