@@ -5,3 +5,7 @@
 3. susikaidyditi i komponentus
 4. generuoti komponentus su MAP()
 5. visi paveiksleliai ir pavadinimas po paveiksleliais turetu buti skirtingi
+
+## Hero uzduotis
+
+![](assets/2023-08-07-11-55-04.png)
