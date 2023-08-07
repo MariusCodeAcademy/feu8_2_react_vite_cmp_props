@@ -13,7 +13,7 @@ function Card1(props) {
           <p className='text'>
             Praesent tincidunt sed tellus ut rutrum sed vitae justo.
           </p>
-          <MainBtn />
+          <MainBtn>Pirkti bilietus</MainBtn>
         </div>
       </article>
     </div>
