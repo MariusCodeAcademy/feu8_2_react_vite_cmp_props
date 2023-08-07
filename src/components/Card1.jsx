@@ -1,7 +1,7 @@
 import MainBtn from './MainBtn';
 
 function Card1(props) {
-  console.log('props ===', props);
+  // console.log('props ===', props);
   const cityName = props.city;
   return (
     <div>
