@@ -2,10 +2,12 @@
 import './style/common.css';
 import './style/App.css';
 import './style/responsive.css';
-import Card1 from './components/Card1';
+// import CardList from './components/CardList';
 import Header from './components/layout/Header';
 import MainBtn from './components/MainBtn';
 // export import Card2
+
+const colorTitiles = ['red', 'green', 'blue'];
 
 function App() {
   // const now = new Date();
@@ -13,20 +15,12 @@ function App() {
   return (
     <div className='App container'>
       <Header />
+      {colorTitiles.map((color) => (
+        <h2 key={color}>{color}</h2>
+      ))}
+
       <MainBtn outline>Light mode</MainBtn>
-      <div className='cardsList grid3'>
-        <Card1
-          city='New York !'
-          heroImage='/img/newyork.jpg'
-          date='2023-07-08'
-        />
-        <Card1 city='Paris !' heroImage='/img/paris.jpg' date='2024-07-08' />
-        <Card1
-          city='San Francisco !'
-          heroImage='/img/sanfran.jpg'
-          date='2019-07-08'
-        />
-      </div>
+      {/* <CardList /> */}
     </div>
   );
 }
