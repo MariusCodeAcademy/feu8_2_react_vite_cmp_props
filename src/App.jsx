@@ -15,16 +15,15 @@ function App() {
   return (
     <div className='App container'>
       <Header />
-      <Weather condition='debesuota' />
+      {false && <Weather condition='debesuota' />}
       {/* daznai naudojama atvaizduo arba neatvaizduoti elementams */}
       {/* if showTitles === true  */}
       {showTitles && <TitlesMap />}
       {/* else */}
       {!showTitles && <h2>Titles siuo metu nerodomi</h2>}
-
       {/* {showTitles ? <TitlesMap /> : <h2>Titles siuo metu nerodomi</h2>} */}
       <MainBtn outline>Light mode</MainBtn>
-      {false && <CardList />}
+      {true && <CardList />}
     </div>
   );
 }
