@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='App container'>
       <Header />
-      <Weather />
+      <Weather condition='debesuota' />
       {/* daznai naudojama atvaizduo arba neatvaizduoti elementams */}
       {/* if showTitles === true  */}
       {showTitles && <TitlesMap />}
