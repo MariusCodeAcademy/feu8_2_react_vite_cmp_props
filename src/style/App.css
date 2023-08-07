@@ -1,0 +1,56 @@
+/* headeris */
+
+.logo {
+  background-color: #fff;
+  padding: 10px;
+  font-weight: normal;
+}
+.logo span {
+  font-weight: bold;
+}
+
+/* nav */
+.mainNav {
+  background-color: #333;
+  color: #fff;
+}
+.navLink {
+  padding: 8px 16px;
+  display: inline-block;
+}
+.navLink:hover {
+  background-color: #797575;
+}
+
+body {
+  background-color: #333;
+}
+.cardsList {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  gap: 16px;
+}
+.cardImg {
+  width: 100%;
+  display: block;
+}
+.cardInfo {
+  background-color: #fff;
+  padding: 15px;
+}
+.cardDate {
+  color: darkgray;
+}
+
+.btn {
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 0.6em 1.2em;
+}
+.btn:hover {
+  background-color: #626262;
+}
